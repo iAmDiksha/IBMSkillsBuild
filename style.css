@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'MonaSans-Regular';
+    src: url('MonaSans-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'MonaSans-Regular';
 }
 
 body,html{
