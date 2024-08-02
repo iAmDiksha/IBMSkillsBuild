@@ -13,11 +13,43 @@
 <body>
     <div class="container">
         <div id="navbar"></div>
-        
+        <main>
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need further information, please feel free to contact us. We are here to help and support you.</p>
+            <div class="contact-details">
+                <div class="detail">
+                   <div>
+                     <i class="ri-map-pin-line"></i>
+                     </div>
+                    <p>1234 Street Name, City, Country</p>
+                </div>
+                <div class="detail">
+                    <i class="ri-phone-line"></i>
+                    <p>+123 456 7890</p>
+                </div>
+                <div class="detail">
+                    <i class="ri-mail-line"></i>
+                    <p>info@example.com</p>
+                </div>
+            </div>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-    <main>
-        <h1>Contact Us</h1>
-    </main>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email Id" required>
+                <label for="Subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Submit</button>
+           
+        </main>
+
+        <div id="footer"></div>
+    </div>
+
 
 
     <!-- Placeholder for the Footer -->
