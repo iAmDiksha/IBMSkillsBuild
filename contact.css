@@ -10,11 +10,11 @@ h1 {
     color: #2c3e50;
     font-size: 2.5em;
     margin-bottom: 20px;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #1877f4;
     padding-bottom: 10px;
 }
 
-p {
+form p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
@@ -27,11 +27,11 @@ form {
 label {
     font-weight: bold;
 }
-input[type="text"],
-input[type="email"],
+input,
 textarea {
     width: 100%;
     padding: 15px;
+    border: 1px solid black;
     border-radius: 5px;
     font-size: 1em;
     transition: border-color 0.3s, box-shadow 0.3s;
@@ -40,8 +40,8 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #4CAF50;
-    box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+    /* border-color: #1877f4; */
+    box-shadow: 0 0 8px rgba(84, 138, 170, 0.178);
     outline: none;
 }
 textarea {
@@ -50,7 +50,7 @@ textarea {
 }
 button {
     padding: 15px 20px;
-    background-color: #4CAF50;
+    background-color: #1877f4;
     color: white;
     border: none;
     border-radius: 5px;
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: blue;
     transform: translateY(-2px);
 }
 
@@ -71,7 +71,7 @@ button:active {
 .contact-details {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin: 30px auto;
 }
 
 .contact-details .detail {
