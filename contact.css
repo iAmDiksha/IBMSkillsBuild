@@ -72,6 +72,8 @@ button:active {
     display: flex;
     justify-content: space-around;
     margin: 30px auto;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .contact-details .detail {
@@ -83,4 +85,11 @@ button:active {
     font-size: 1.5em;
     margin-right: 10px;
     color: #007bff;
+}
+
+.map{
+    margin: 50px auto;
+    max-width: fit-content;
+    width: 93%;
+    overflow: hidden;
 }

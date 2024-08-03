@@ -22,65 +22,42 @@ body,html{
     background-color: white;
 }
 
-.navbar ul{
-    display: flex;
-    align-items: center;
+
+
+.navbar li{
+    list-style: none;
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2px 30px;
-    background-color: white;
-    box-shadow: 1px 1px 3px 3px rgb(235, 232, 232);
-    position: sticky;
-    top: 0;
-    min-height: 60px;
-    width: 100%;
-}
 
-.navbar #logo{
-    font-size: 30px;
-    cursor: pointer;
-    color:#1877f4;
+.navbar a{
     text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    color: blue;
+    font-weight: bold;
+}
+#logo{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+}
+
+#logo a{
+    color: #1877f4;
     font-weight: 900;
 }
 
-.navbar ul li{
-    list-style: none;
-    padding: 15px 10px;
-    margin-left: 15px;
-    font-size: 18px;
-}
-
-.navbar ul li:hover{
-    border-bottom: 2px solid blue;
-}
-.icons{
+#menu ul{
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-}
-
-.icons i{
-    font-size: 20px;
-    cursor: pointer;
-    color: black;
-}
-
-.bar{
-    display: none;
-}
-
-.bar.open, .bar.close{
-    display: none;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: black;
+    gap: 40px;
+    padding: 10px 40px;
+    box-shadow: 1px 1px 3px 3px rgb(219, 214, 214);
 }
 
 .footer{
@@ -106,46 +83,9 @@ body,html{
     justify-content: center;
 }
 
-@media screen and (max-width:850px){
-    .bar{
-        display: inline-block;
+@media screen and (max-width:450px){
+    #menu ul{
+        gap: 10px;
     }
-    .bar.open{
-        display: inline-block;
-    }
-    .bar.close{
-        display: none;
-    }
-    .navbar ul{
-        position: relative;
-        border: none;
-        z-index: 10;
-    }
-    .navbar ul{
-        transition: all 1s;
-        position: absolute;
-        top: 0;
-        right: -100%;
-        flex-direction: column;
-        border: none;
-        justify-content: flex-start;
-        background-color: white;
-        padding: 0;
-        width: 250px;
-        height: 82vh;
-        gap: 0;
-    }
-    .navbar ul li{
-        border: none;
-        width: 100%;
-        height: auto;
-        padding: 10px 30px;
-        margin: 5px;
-        font-weight: normal;
-    }
-    .navbar ul li:hover{
-        background-color: #a8d0f1;
-        border: none;
-    }
-
 }
+
