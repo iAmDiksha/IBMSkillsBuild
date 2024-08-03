@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-size: em;
+    margin: 20px 0;
+}
+
+.space {
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0 0 20px 0;
+}
+
+section#lessons {
+    margin-top: 20px;
+}
+
+section#lessons article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
